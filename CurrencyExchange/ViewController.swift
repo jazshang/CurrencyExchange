@@ -87,7 +87,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
                  second = MXN
             }
             
-            self.lblResult.text = "\(fromCurrency) to \(toCurrency) rate is \(round(1000*(second/first))/1000)"
+            self.lblResult.text = "\(fromCurrency) to \(toCurrency) rate: \(round(1000*(second/first))/1000)"
         }
     }
     

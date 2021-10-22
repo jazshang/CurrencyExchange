@@ -8,7 +8,6 @@ target 'CurrencyExchange' do
   # Pods for CurrencyExchange
   pod 'SwiftyJSON'
   pod 'Alamofire'
-  pod "SwiftSpinner"
-
+  pod 'SwiftSpinner'
 
 end
